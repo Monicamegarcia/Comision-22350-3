@@ -1,9 +1,9 @@
 :root {
     --secondary-color: #5fa571 ;
-    --primary-color: #009786;
-    --menu-mobile-background-color: #afba81;
-    --third-color: #e9d0aa;
-    --theme-color:#ffe0d0;
+    --primary-color: #afba81;
+    --menu-mobile-background-color: #009786;
+    --nav-bar-shallow-color: #b1a99d;
+    --theme-color:#e9d0aa;
     --text-color: rgba(10, 9, 9, 0.603);
     --text-color-inverse:white;
 }
