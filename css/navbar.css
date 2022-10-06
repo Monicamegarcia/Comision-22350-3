@@ -21,7 +21,7 @@
     align-items: center;
     font-size: 20px;
     font-weight: 500;
-    color: var(--third-color);
+    color: var(--text-color);
 }
 
 .logo img {
@@ -53,8 +53,7 @@
     display: none
 }
 
-@media (max-width: 950px) {
-
+@media (max-width: 800px) {
     /*menu*/
     .menu {
         flex-direction: column;
@@ -74,7 +73,7 @@
         padding: 0;
     }
     .menu a {
-        color: var(---text-color-inverse);
+        color: var(--text-color-inverse);
         line-height: 60px;
     }
     .open-menu,
@@ -82,12 +81,11 @@
         display: block;
         border: none;
         background: none;
-        cursor:pointer;
-
+        cursor: pointer;
     }
     .close-menu {
         align-self: flex-end;
-        padding: 0px 10px 0px 200px;
+        padding: 20px 15px;
     }
     .menu-opened {
         opacity:1;
