@@ -88,11 +88,11 @@
         padding: 20px 15px;
     }
     .menu-opened {
-        opacity:1;
+        opacity: 1;
         pointer-events: all;
     }
-    .open-menu:focus:not( :focus-visible),
-    .close-menu:focus:not( :focus-visible) {
+    .open-menu:focus:not(:focus-visible),
+    .close-menu:focus:not(:focus-visible) {
         outline: none;
     }
 }
