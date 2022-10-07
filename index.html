@@ -18,7 +18,107 @@
     <link rel="stylesheet" href="css/navbar.css"/>
     <link rel="stylesheet" href="css/Quienes-Somos.css"/>
     <link rel="stylesheet" href="css/Presupuestos.css"/>
+    <link rel="stylesheet" href="css/galeria.css"/>
+    <link rel="stylesheet" href="css/contacto.css"/>
     <script defer src="js/app.js"></script>
+
+    <style>
+        #carrusel-caja {
+            -moz-animation: automatizacion 15s infinite linear;
+            -o-animation: automatizacion 15s infinite linear;
+            -webkit-animation: automatizacion 15s infinite linear;
+            animation: automatizacion 15s infinite linear;
+            -webkit-transition: all 0.75s ease;
+            -moz-transition: all 0.75s ease;
+            -ms-transition: all 0.75s ease;
+            -o-transition: all 0.75s ease;
+            transition: all 0.75s ease;
+            height: 500px;
+            width: 300%;
+        }
+        #carrusel-contenido {
+            margin: 0 auto;
+            overflow: hidden;
+            text-align: left;
+        }
+        .imagenes{
+            height: 500px;
+            width: 100%;
+        }
+        .carrusel-elemento {
+            float: left;
+            width: 33.333%;
+        }
+        @-moz-keyframes automatizacion {
+            0% {
+                margin-left: 0;
+            }
+            30% {
+                margin-left: 0;
+            }
+            35% {
+                margin-left: -100%;
+            }
+            65% {
+                margin-left: -100%;
+            }
+            70% {
+                margin-left: -200%;
+            }
+            95% {
+                margin-left: -200%;
+            }
+            100% {
+                margin-left: 0;
+            }
+        }
+        @-webkit-keyframes automatizacion {
+            0% {
+                margin-left: 0;
+            }
+            30% {
+                margin-left: 0;
+            }
+            35% {
+                margin-left: -100%;
+            }
+            65% {
+                margin-left: -100%;
+            }
+            70% {
+                margin-left: -200%;
+            }
+            95% {
+                margin-left: -200%;
+            }
+            100% {
+                margin-left: 0;
+            }
+        }
+        @keyframes automatizacion {
+            0% {
+                margin-left: 0;
+            }
+            30% {
+                margin-left: 0;
+            }
+            35% {
+                margin-left: -100%;
+            }
+            65% {
+                margin-left: -100%;
+            }
+            70% {
+                margin-left: -200%;
+            }
+            95% {
+                margin-left: -200%;
+            }
+            100% {
+                margin-left: 0;
+            }
+        }
+    </style>
 </head>
 <body>
     <header class="topheader">
@@ -35,11 +135,11 @@
                 </div>
             </a>
             <button class="open-menu" aria-label="Abrir menú">
-                <img src="img/hamburguesa.png" alt="Abrir menu"/>
+                <img src="img/menu.png" alt="Abrir menu"/>
             </button>
             <ul class="menu">
               <button class="close-menu" aria-label="Cerrar menú">
-                <img src="img/close.png" alt="Cerrar menu">
+                <img src="img/close-window.png" alt="Cerrar menu">
               </button>    
                 <li><a href="Quienes Somos">Quienes Somos</a></li>
                 <li><a href="Servicios">Servicios</a></li>
@@ -76,15 +176,29 @@
             <div class="servicios-grid">
                 <div class="servicios">
                     <div class="servicios-tipo-servicio">Pulido y Plastificado</div> 
+                        <video width="320" height="240" autoplay muted>
+                        <source src="video/pulido1.mp4" type="video/mp4">
+                         Your browser does not support the video tag.
+                        </video> 
 
                     <div class="servicios-tipo-servicio">Pulido e Hidrolaqueado</div>
+                    <video width="320" height="240" autoplay muted>
+                        <source src="video/hidrolaqueado.mp4" type="video/mp4">
+                         Your browser does not support the video tag.
+                        </video>
 
                     <div class="servicios-tipo-servicio">Venta y colocación de zócalos</div>
-    
+                        <video width="320" height="240" autoplay muted>
+                        <source src="video/pulido.mp4" type="video/mp4">
+                         Your browser does not support the video tag.
+                        </video>
+
                     <div class="servicios-tipo-servicio">Reparaciones</div>
-
+                        <video width="320" height="240" autoplay muted>
+                        <source src="video/reparacion.mp4" type="video/mp4">
+                         Your browser does not support the video tag.
+                        </video>
                 </div>
-
             </div>
         </div>
         <img src="img/wave-afba81.svg"alt="division">
@@ -97,11 +211,73 @@
                 <label >Nombre y Apellido</label><br>
                 <label >Número de teléfono</label><br>
                 <label >Correo electrónico</label><br>
+                <label >m2 a cubrir</label><br>
                 <label >Mensaje</label><br>
             </form>
 
         </section>
     </div>
+
+    <div class="galeria">
+        <h2 class="Galeria-title">Galeria</h2>
+        <div id="carrusel-contenido">
+            <div id="carrusel-caja">
+                <div class="carrusel-elemento">
+                    <img class="imagenes" src="img/galeria/foto1.jpg" alt="foto1" >
+                </div>
+                <div class="carrusel-elemento">   
+                    <img class="imagenes" src="img/galeria/foto2.jpg" alt="foto2">
+                </div>
+                <div class="carrusel-elemento">   
+                    <img class="imagenes" src="img/galeria/foto3.jpg" alt="foto3">                        
+                </div>
+                <div class="carrusel-elemento">   
+                    <img class="imagenes" src="img/galeria/foto4.jpg" alt="foto4">                        
+                </div>
+                <div class="carrusel-elemento">   
+                    <img class="imagenes" src="img/galeria/foto5.jpg" alt="foto5">                        
+                </div>
+                <div class="carrusel-elemento">   
+                    <img class="imagenes" src="img/galeria/foto6.jpg" alt="foto6">                        
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="">
+        <section class="Contacto">
+            <h2 class="Contacto-title">Contacto</h2>
+            <div>
+                <h3>Donde estamos</h3>
+                Avenida Forest 567
+                C1427 CABA
+            </div>
+           <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.7394307954696!2d-58.4535066!3d-34.585459199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb509a6ff11df%3A0x1bacdf84c201f51!2scentro%20de%20plastificado!5e0!3m2!1ses-419!2sar!4v1665178700842!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+                <h3>Horarios de atención</h3>
+                    <ul>
+                        <li>lun:9:30–20:00</li>
+                        <li>mar:9:30–20:00</li>
+                        <li>mie:9:30–20:00</li>
+                        <li>jue:9:30–20:00</li>
+                        <li>vie:9:30–20:00</li>
+                        <li>sab:10:00–17:00</li>
+                        <li>dom:10:00–12:30</li>
+                    </ul>
+            <h3>Teléfono</h3>
+            011 6997-2627
+            <h3>Nuestras redes</h3>
+            <a href="https://www.facebook.com/people/Pulido-y-plastificado-Centrodeplastificado/100063600982875/"><img src="img/facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/centrodeplastificado/"><img src="img/instagram-logo.png" alt="facebook"></a>
+        </section>
+    </div>
+<footer>
+    Fabian Stricker
+    Monica Garcia
+    Comision 22530 Grupo 3
+    Codo a Codo
+</footer>
 </body>
 
 </html>
