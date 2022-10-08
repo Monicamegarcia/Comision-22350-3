@@ -8,6 +8,14 @@
     --text-color-inverse:white;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+section[id] {
+    scroll-margin-top: 70px;
+}
+
 body {
     font-family: 'Montserrat Alternates', sans-serif;
     background-color: var(--theme-color);
