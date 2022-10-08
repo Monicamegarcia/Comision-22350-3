@@ -207,14 +207,21 @@
     <div class="horizontal-padding vertical-padding">
         <section class="Presupuestos">
             <h2 class="Presupuestos-title">Presupuestos</h2>
-            <form class="Presupuestos-item">
-                <label >Nombre y Apellido</label><br>
-                <label >Número de teléfono</label><br>
-                <label >Correo electrónico</label><br>
-                <label >m2 a cubrir</label><br>
-                <label >Mensaje</label><br>
+            <center>
+            <form action>
+                <label for="fname" >Nombre y Apellido</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="tel">Número de teléfono</label><br>
+                <input type="tel" id="tel" name="tel"><br>
+                <label for="email" >Correo electrónico</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="m2">m2 a cubrir</label><br>
+                <input type="number" id="m2" name="fnumber"><br>
+                <label for="message">Mensaje</label><br>
+                <textarea name="message" rows="7" cols="30">Escriba su consulta aqui</textarea>
+                <input type="submit" value="Submit">
             </form>
-
+            </center>
         </section>
     </div>
 
