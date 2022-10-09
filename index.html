@@ -209,7 +209,6 @@
     <div class="horizontal-padding vertical-padding">
         <section class="Presupuestos" id="Presupuestos">
             <h2 class="Presupuestos-title">Presupuestos</h2>
-            <center>
             <form action="" id="Formulario">
                 <div>
                     <label for="name" >Nombre y Apellido</label><br> <br>
@@ -221,14 +220,13 @@
                     <label for="m2">m2 a cubrir</label><br><br>
                     <input type="number" id="m2" name="m2" placeholder="valor aprox."><br><br>
                     <label for="message">Mensaje</label><br><br>
-                    <textarea name="message" rows="7" cols="30" id="message">Escriba su consulta aqui</textarea><br><br>
-                    <input type="submit" value="Enviar">
+                    <textarea name="message" rows="7" id="message">Escriba su consulta aqui</textarea><br><br>
+                    <input type="submit"  class="presupuesto-form-submit" value="Enviar">
                     <div id="error"></div>
                 </div>
                 <script src="js/validacion form.js"></script>
             </form>
-            </center>
-          
+        
         </section>
     </div>
 
@@ -258,6 +256,49 @@
         </div>
     </div>
 
+    <div class="horizontal-padding vertical-padding">
+        <section class="Contact" id="Contacto">
+            <h2 class="Contact-title">Contacto</h2>
+            <div class="Contact-details">
+                <div class="Contact-details-group">
+                    <p class="Contact-label">Dirección:</p>
+                    <p class="Contact-text">Avenida Forest 567, C1427 CABA</p>
+                </div>
+                <div class="Contact-details-group">
+                    <p class="Contact-label">Teléfono:</p>
+                    <p class="Contact-text">011 6997-2627</p>
+                </div>
+                <div class="Contact-details-group">
+                    <p class="Contact-label">Horarios de atención:</p>
+                    <ul>
+                        <li>lun:9:30–20:00</li>
+                        <li>mar:9:30–20:00</li>
+                        <li>mie:9:30–20:00</li>
+                        <li>jue:9:30–20:00</li>
+                        <li>vie:9:30–20:00</li>
+                        <li>sab:10:00–17:00</li>
+                        <li>dom:10:00–12:30</li>
+                    </ul>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/people/Pulido-y-plastificado-Centrodeplastificado/100063600982875/">
+                            <img src="img/facebook.png" alt="facebook">
+                        </a>  
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/centrodeplastificado/">
+                            <img src="img/instagram-logo.png" alt="facebook">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </div>
+
+<!--
     <div class="">
         <section class="Contacto" id="Contacto">
             <h2 class="Contacto-title">Contacto</h2>
@@ -286,6 +327,7 @@
             <a href="https://www.instagram.com/centrodeplastificado/"><img src="img/instagram-logo.png" alt="facebook"></a>
         </section>
     </div>
+-->
 <footer>
     Fabian Stricker
     Monica Garcia
