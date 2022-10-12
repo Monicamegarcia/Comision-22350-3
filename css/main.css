@@ -1,9 +1,9 @@
 :root {
     --secondary-color: #5fa571 ;
-    --primary-color: #afba81;
+    --primary-color:#ce9a5c;
     --menu-mobile-background-color: #009786;
     --nav-bar-shallow-color: #b1a99d;
-    --theme-color:#e9d0aa;
+    --theme-color:#eceae7;
     --text-color: rgba(10, 9, 9, 0.603);
     --text-color-inverse:white;
 }
@@ -17,7 +17,7 @@ section[id] {
 }
 
 body {
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     background-color: var(--theme-color);
     color: var(--text-color);
     padding-top: 70px;
@@ -48,3 +48,14 @@ a {
         padding-bottom: 70px;
     }    
 }
+
+/*:root {
+    --secondary-color: #5fa571 ;
+    --primary-color: #afba81;
+    --menu-mobile-background-color: #009786;
+    --nav-bar-shallow-color: #b1a99d;
+    --theme-color:#e9d0aa;
+    --text-color: rgba(10, 9, 9, 0.603);
+    --text-color-inverse:white;
+}
+*/

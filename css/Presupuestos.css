@@ -41,4 +41,5 @@
     border-radius:7px;
     color: var(--text-color-inverse);
     border: 1px solid var(--theme-color);
+    cursor: pointer;
 }

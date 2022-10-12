@@ -52,7 +52,7 @@
     }
     
     .wave_bottom {
-        transform: scaleY(-1);
+        /*transform: scaleY(-1);*/
         top: -2px;
     }
 
