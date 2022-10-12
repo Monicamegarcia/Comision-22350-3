@@ -209,8 +209,8 @@
     <div class="horizontal-padding vertical-padding">
         <section class="Presupuestos" id="Presupuestos">
             <h2 class="Presupuestos-title">Presupuestos</h2>
-            <form action="" id="Formulario">
-                <div>
+            <form  class="Presupuestos-form" action="" id="Formulario">
+                <div class="Presupuestos-form-group">
                     <label for="name" >Nombre y Apellido</label><br> <br>
                     <input type="text" id="name" name="name" size="50"><br><br>
                     <label for="tel">Número de teléfono</label><br><br>
@@ -221,7 +221,9 @@
                     <input type="number" id="m2" name="m2" placeholder="valor aprox."><br><br>
                     <label for="message">Mensaje</label><br><br>
                     <textarea name="message" rows="7" id="message">Escriba su consulta aqui</textarea><br><br>
-                    <input type="submit"  class="presupuesto-form-submit" value="Enviar">
+                </div>
+                <div>
+                    <input type="submit"  class="Presupuesto-form-submit" value="Enviar">
                     <div id="error"></div>
                 </div>
                 <script src="js/validacion form.js"></script>
@@ -263,6 +265,9 @@
                 <div class="Contact-details-group">
                     <p class="Contact-label">Dirección:</p>
                     <p class="Contact-text">Avenida Forest 567, C1427 CABA</p>
+                    <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.7394307954696!2d-58.4535066!3d-34.585459199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb509a6ff11df%3A0x1bacdf84c201f51!2scentro%20de%20plastificado!5e0!3m2!1ses-419!2sar!4v1665178700842!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
                 <div class="Contact-details-group">
                     <p class="Contact-label">Teléfono:</p>
@@ -270,19 +275,19 @@
                 </div>
                 <div class="Contact-details-group">
                     <p class="Contact-label">Horarios de atención:</p>
-                    <ul>
-                        <li>lun:9:30–20:00</li>
-                        <li>mar:9:30–20:00</li>
-                        <li>mie:9:30–20:00</li>
-                        <li>jue:9:30–20:00</li>
-                        <li>vie:9:30–20:00</li>
-                        <li>sab:10:00–17:00</li>
-                        <li>dom:10:00–12:30</li>
+                    <ul class="Conctact">
+                        <li>lun: 9:30–20:00</li>
+                        <li>mar: 9:30–20:00</li>
+                        <li>mie: 9:30–20:00</li>
+                        <li>jue: 9:30–20:00</li>
+                        <li>vie: 9:30–20:00</li>
+                        <li>sab: 10:00–17:00</li>
+                        <li>dom: 10:00–12:30</li>
                     </ul>
                 </div>
             </div>
-            <nav>
-                <ul>
+            <nav class="social">
+                <ul class="social-list">
                     <li>
                         <a href="https://www.facebook.com/people/Pulido-y-plastificado-Centrodeplastificado/100063600982875/">
                             <img src="img/facebook.png" alt="facebook">
@@ -297,37 +302,6 @@
             </nav>
         </section>
     </div>
-
-<!--
-    <div class="">
-        <section class="Contacto" id="Contacto">
-            <h2 class="Contacto-title">Contacto</h2>
-            <div>
-                <h3>Donde estamos</h3>
-                Avenida Forest 567
-                C1427 CABA
-            </div>
-           <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.7394307954696!2d-58.4535066!3d-34.585459199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb509a6ff11df%3A0x1bacdf84c201f51!2scentro%20de%20plastificado!5e0!3m2!1ses-419!2sar!4v1665178700842!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-                <h3>Horarios de atención</h3>
-                    <ul>
-                        <li>lun:9:30–20:00</li>
-                        <li>mar:9:30–20:00</li>
-                        <li>mie:9:30–20:00</li>
-                        <li>jue:9:30–20:00</li>
-                        <li>vie:9:30–20:00</li>
-                        <li>sab:10:00–17:00</li>
-                        <li>dom:10:00–12:30</li>
-                    </ul>
-            <h3>Teléfono</h3>
-            011 6997-2627
-            <h3>Nuestras redes</h3>
-            <a href="https://www.facebook.com/people/Pulido-y-plastificado-Centrodeplastificado/100063600982875/"><img src="img/facebook.png" alt="facebook"></a>
-            <a href="https://www.instagram.com/centrodeplastificado/"><img src="img/instagram-logo.png" alt="facebook"></a>
-        </section>
-    </div>
--->
 <footer>
     Fabian Stricker
     Monica Garcia
