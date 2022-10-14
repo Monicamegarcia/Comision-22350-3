@@ -20,7 +20,7 @@
   }
 
 .Servicios-grid {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     align-items: space-between;
     height: 600px;
@@ -47,6 +47,8 @@
     max-width: 500px;
     margin: 0 auto;
 }
+
+
 
 @media (min-width=950px) {
 
