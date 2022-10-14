@@ -1,3 +1,8 @@
+.Servicios-1 {
+    display: flex;
+    flex-direction: column;
+}
+
 .Servicios-title {
     text-align: center;
     text-transform: uppercase;
@@ -6,10 +11,21 @@
     margin: 25px;
 }
 
-.Servicios-2 {
+.Servicios-tipo-servicio {
     margin: 0 auto;
-}
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
 
+.Servicios-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    height: 600px;
+    background-color: var(--primary-color);
+}
 .Servicios-body {
     background-color: var(--primary-color);
     color: var(--text-color-inverse);
@@ -24,6 +40,12 @@
 .wave_bottom {
     transform: scaleY(-1);
     top: -2px;
+}
+
+.Servicios-tipo-servicio{
+    padding: 25px;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 @media (min-width=950px) {

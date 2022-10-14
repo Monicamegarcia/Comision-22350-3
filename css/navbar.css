@@ -75,7 +75,8 @@
     }
     .menu a {
         color: var(--text-color-inverse);
-        line-height: 60px;
+        line-height: 70px;
+        font-size: 25px;
     }
     .open-menu,
     .close-menu {
@@ -88,7 +89,7 @@
         align-self: flex-end;
         padding: 20px 15px;
     }
-    .menu-opened {
+    .menu_opened {
         opacity: 1;
         pointer-events: all;
     }

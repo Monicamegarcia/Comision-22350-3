@@ -8,6 +8,8 @@
     max-width: 300px;
     display: block;
     margin: auto;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px;
 }
 
 .Quienes-Somos-img-section {
