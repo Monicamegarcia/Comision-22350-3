@@ -36,21 +36,21 @@
     transition: all 0.75s ease;
     height: 500px;
     width: 300%;
-}
-#carrusel-contenido {
+    }
+    #carrusel-contenido {
     margin: 0 auto;
     overflow: hidden;
     text-align: left;
-}
-.imagenes{
+    }
+    .imagenes{
     height: 500px;
     width: 100%;
-}
-.carrusel-elemento {
+    }
+    .carrusel-elemento {
     float: left;
     width: 33.333%;
-}
-@-moz-keyframes automatizacion {
+    }
+    @-moz-keyframes automatizacion {
     0% {
         margin-left: 0;
     }
@@ -72,7 +72,7 @@
     100% {
         margin-left: 0;
     }
-}
+    }
 @-webkit-keyframes automatizacion {
     0% {
         margin-left: 0;
@@ -174,11 +174,145 @@
         <img src="img/wave marron arriba.svg"alt="division" class="wave">
         <div class="Servicios-body">
             <h2 class="Servicios-title">Servicios</h2>
+ <!--             
             <div class="Servicios-grid">
+              
+                <ul class="galeria">
+                    <li><a href="#video 1"> <video width="350" height="250" autoplay muted>
+                                    <source src="video/pulido1.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                    </video>
+                    </a> </li>
+                    <li><a href="#video 2"> <video width="350" height="250" autoplay muted>
+                                    <source src="video/hidrolaqueado.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                    </video> 
+                        </a> </li>
+                    <li><a href="#video 3"> <video width="350" height="250" autoplay muted>
+                                    <source src="video/pulido.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                    </video>
+                        </a> </li>
+                    <li><a href="#video 4"><video width="350" height="250" autoplay muted>
+                                    <source src="video/reparacion.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                    </video>
+                        </a> </li>
+                </ul>
+-->                 
+                <div class="responsive">
+                    <div class="gallery">
+                      <a target="_blank" href="video/pulido1.mp4">
+                        <video width="350" height="250" autoplay muted>
+                        <source src="video/pulido1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                      </a>
+                      <div class="desc">Pulido y Plastificado</div>
+                    </div>
+                </div>
+                  
+                  <div class="responsive">
+                    <div class="gallery">
+                      <a target="_blank" href="video/hidrolaqueado.mp4">
+                        <video width="350" height="250" autoplay muted>
+                        <source src="video/hidrolaqueado.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                      </a>
+                      <div class="desc">Pulido y Hidrolaqueado</div>
+                    </div>
+                  </div>
+                  
+                  <div class="responsive">
+                    <div class="gallery">
+                      <a target="_blank" href="video/reparacion.mp4">
+                        <video width="350" height="250" autoplay muted>
+                        <source src="video/reparacion.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                      </a>
+                      <div class="desc">Reparaciones</div>
+                    </div>
+                  </div>
+                  
+                  <div class="responsive">
+                    <div class="gallery">
+                      <a target="_blank" href="video/pulido.mp4">
+                        <video width="350" height="250" autoplay muted>
+                        <source src="video/pulido.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                      </a>
+                      <div class="desc">Venta y reparación de zócalos</div>
+                    </div>
+                  </div>
+                  
+                  <div class="clearfix"></div>
+
+        </div>
+                <img src="img/wave marron arriba.svg"alt="division" class="wave wave_bottom">
+    </section>
+<!--
+                <div class="modal" id="video 1">
+                    <h3>Pulido y Plastificado</h3>
+                    <div class="video">
+                        <a href="#video 4">&#60;</a>
+                        <a href="#video 2"><video width="350" height="250" autoplay muted>
+                            <source src="video/pulido1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                            </video></a>
+                        <a href="#video 2"></a>
+                    </div>
+                    <a class="cerrar" href="">X</a>
+                </div>
+
+                <div class="modal" id="video 2">
+                    <h3>Pulido e Hidroquelado</h3>
+                    <div class="video">
+                        <a href="#video 1">&#60;</a>
+                        <a href="#video 3"><video width="350" height="250" autoplay muted>
+                            <source src="video/hidrolaqueado.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                            </video></a>
+                        <a href="#video 3"></a>
+                    </div>
+                    <a class="cerrar" href="">X</a>
+                </div>
+
+                <div class="modal" id="video 3">
+                    <h3>Venta y colocación de zócalos</h3>
+                    <div class="video">
+                        <a href="#video 2">&#60;</a>
+                        <a href="#video 4"><video width="350" height="250" autoplay muted>
+                            <source src="video/pulido.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                            </video></a>
+                        <a href="#video 4"></a>
+                    </div>
+                    <a class="cerrar" href="">X</a>
+                </div>
+
+                <div class="modal" id="video 4">
+                    <h3>Reparaciones</h3>
+                    <div class="video">
+                        <a href="#video 3">&#60;</a>
+                        <a href="#video 1"><video width="350" height="250" autoplay muted>
+                            <source src="video/reparacion.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                            </video></a>
+                        <a href="#video 1"></a>
+                    </div>
+                    <a class="cerrar" href="">X</a>
+                </div>
+
+            </div>
+        -->       
+<!--
                     <div class="Servicios-tipo-servicio">
-                        <span>
+                        <div>
                             <h3>Pulido y Plastificado </h3>
-                        </span>
+                        </div>
                         <div>
                             <video width="350" height="250" autoplay muted>
                             <source src="video/pulido1.mp4" type="video/mp4">
@@ -187,9 +321,9 @@
                         </div>
                     </div>
                     <div class="Servicios-tipo-servicio">
-                        <span>
+                        <div>
                             <h3>Pulido e Hidrolaqueado </h3>
-                        </span>
+                        </div>
                     </div>
                     <div>
                         <video width="350" height="250" autoplay muted>
@@ -217,11 +351,11 @@
                             </video>
                         </div>
                     </div>
-                </div>
+           </div>
             </div>
         </div>
-        <img src="img/wave marron arriba.svg"alt="division" class="wave wave_bottom">
-    </section>
+    -->
+        
 
     <div class="horizontal-padding vertical-padding">
         <section class="Presupuestos" id="Presupuestos">
@@ -283,7 +417,7 @@
                     <p class="Contact-label">Dirección:</p>
                     <p class="Contact-text">Avenida Forest 567, C1427 CABA</p>
                     <div>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.7394307954696!2d-58.4535066!3d-34.585459199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb509a6ff11df%3A0x1bacdf84c201f51!2scentro%20de%20plastificado!5e0!3m2!1ses-419!2sar!4v1665178700842!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.7394307954696!2d-58.4535066!3d-34.585459199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb509a6ff11df%3A0x1bacdf84c201f51!2scentro%20de%20plastificado!5e0!3m2!1ses-419!2sar!4v1665178700842!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
                 <div class="Contact-details-group">
@@ -312,18 +446,27 @@
                     </li>
                     <li>
                         <a href="https://www.instagram.com/centrodeplastificado/">
-                            <img src="img/instagram-logo.png" alt="facebook">
+                            <img src="img/instagram-logo.png" alt="instagram">
                         </a>
                     </li>
+                    <li>  
+                    <a href="https://api.whatsapp.com/send?phone=+5491169972627&text=Hola, Necesito mas informacion!">
+                        <img src="img/whatsapp.png" alt="whatsapp">
+                        <p style="font-size: 13px;">Envíanos un mensaje</p>
+                    </a>
+                </li>
                 </ul>
             </nav>
         </section>
     </div>
 <footer>
-    Fabian Stricker
-    Monica Garcia
-    Comision 22530 Grupo 3
-    Codo a Codo
+    <center>
+        Fabian Stricker 
+        Monica Garcia 
+        Comision 22530 Grupo 3 
+        Codo a Codo
+    </center>
+
 </footer>
 </body>
 
